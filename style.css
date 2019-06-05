@@ -52,11 +52,19 @@ nav a:hover{
 section{
     grid-area: sakura;
     background-color: green;
+    display: flex;
+    justify-content: center;
+    grid-area: 100%;
+}
+section img:hover{
+    width: 300px;
 }
 
 aside{
     grid-area: kakashi;
-    background-color: yellow;
+    background-color: blue;
+    display: flex;
+    text-align: center;
 }
 
 footer{
