@@ -65,8 +65,17 @@ aside{
     background-color: blue;
     display: flex;
     text-align: center;
+    padding: 0 70px;
 }
+aside p span{
+    font-style: italic;
+    color: #f67834;
+}
+aside p{
+    color: white;
+    font-family: 'Roboto';
 
+}
 footer{
     grid-area: minato;
     background-color: purple;
