@@ -32,9 +32,23 @@ header{
 
 nav{
     grid-area: sasuke;
-    background-color: blue;
+    background-color: #f67834;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
+nav a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: 'Roboto';
+}
+
+nav a:hover{
+    color: white;
+}
 section{
     grid-area: sakura;
     background-color: green;
