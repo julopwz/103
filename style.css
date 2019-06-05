@@ -62,7 +62,7 @@ section img:hover{
 
 aside{
     grid-area: kakashi;
-    background-color: blue;
+    background-color: rgb(8, 8, 114);
     display: flex;
     text-align: center;
     padding: 0 70px;
@@ -79,4 +79,14 @@ aside p{
 footer{
     grid-area: minato;
     background-color: purple;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30%;
+}
+
+div{
+    justify-content: space-around;
+    display: flex;
+    justify-items: center;
 }
